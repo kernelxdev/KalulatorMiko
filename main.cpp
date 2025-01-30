@@ -13,7 +13,7 @@ int main() {
     double wynik;
 
     cout << "Kalkulator!\n";
-    cout << "Wybierz działanie (| + | - | * | / |): ";
+    cout << "Wybierz działanie (| + | - | * | / | ^ |): ";
     cin >> a;
     cout << "\nPodaj pierwszą liczbę: ";
     cin >> x;
