@@ -38,6 +38,10 @@ int main() {
         wynik = x / y;
         cout << "Wynik dzielenia: " << wynik;
         break;
+    case '^':
+        wynik = pow(x, y);
+        cout << "Wynik potęgowania: " << wynik;
+        break;
     
     default:
         cout << "Wybierz poprawną operację!";
